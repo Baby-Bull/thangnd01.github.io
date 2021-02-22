@@ -1,5 +1,27 @@
 *{margin: 0; padding: 0;}
 
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+.khoitt1:before {
+    left: 0px;
+    content: "";
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    background: #ec0b0b85;
+}
+
+.khoitt1 {
+    height: 100%;
+    width: 100%;
+    background: #df1f1f73;
+    position: relative;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     width: 100%;
 }
