@@ -1,5 +1,12 @@
 *{margin: 0; padding: 0;}
 
+i.fa.fa-arrow-circle-o-down {font-size: 90px;text-align: center;color: white;cursor: pointer;margin: auto;}
+
+i.fa.fa-arrow-circle-o-down:hover {
+    font-size: 101px;
+    transition: 0.2s;
+}
+
 .khoittnho p {
     font-size: 14px;
     margin: 14px 0px 0px 0px;
@@ -56,6 +63,14 @@ h2.tieudecap2 {
     color: yellow;
     background: black;
     border: 3px yellow solid;
+}
+.tt .xuong {
+	z-index: 3;
+	height: 98px;
+	width: 142px;
+	position: absolute;
+	left: 44%;
+	margin-top: 87px;
 }
 
 .tt p {
