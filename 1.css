@@ -1,26 +1,26 @@
 *{margin: 0; padding: 0;}
 
+.menuicon ul li i {
+    color: white;
+}
+
+
+.menuicon ul {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+    text-align: -webkit-right;
+}
+
+.menuicon li a {
+    display: block;
+    margin-left: 4px;
+}
+
 .menutop img {
     height: 68px;
     width: 121px;
     margin: -1px 22px -1px -12px;
-}
-
-a :hover {
-    border: white 3px solid;
-    margin: 1px 0 9px -217px;
-    height: 47px;
-    border-radius: 25px;
-    cursor: pointer;
-}
-
-.menuicon a {
-    border: white 3px solid;
-    margin: 1px 0 9px -217px;
-    height: 47px;
-    border-radius: 25px;
-    width: 83px;
-    margin-left: -84px;
 }
 
 .linkchuyen {
@@ -32,11 +32,8 @@ a :hover {
     font-size: 15px;
     color: white;
 }
-.menuicon {
-    float: right;
-    display: grid;
-    margin: 7px 0 0 0;
-}
+.menuicon {position: relative;z-index: 2;}
+
 
 .linkchuyen u {
     margin-right: 16px;
@@ -52,7 +49,7 @@ i.fa.fa-arrow-circle-o-down {font-size: 90px;text-align: center;color: white;cur
 
 i.fa.fa-arrow-circle-o-down:hover {
     font-size: 101px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .khoittnho p {
@@ -113,12 +110,12 @@ h2.tieudecap2 {
     border: 3px yellow solid;
 }
 .tt .xuong {
-	z-index: 3;
-	height: 98px;
-	width: 142px;
-	position: absolute;
-	left: 44%;
-	margin-top: 87px;
+    z-index: 3;
+    height: 98px;
+    width: 142px;
+    position: absolute;
+    left: 33%;
+    margin-top: 87px;
 }
 
 .tt p {
@@ -146,8 +143,8 @@ h2.tieudecap2 {
 
 .tt {
     padding-top: 10%;
-    z-index: 2;
-    position: relative;
+    position: absolute;
+    margin: 0px 0px 0px 428px;
 }
 
 body,html {
@@ -185,14 +182,37 @@ div#navbarSupportedContent {
     display: flex;
 } 
 .menutop{
-	background: #8080805e;
-	display: flex;
+    background: #8080805e;
+    display: flex;
 }
-li {
+.menutop li {
     margin: 13px 101px -30px !important;
     display: inline!important;
     text-align: center;
 }
+
+.menuicon ul li {
+    font-size: 34px;
+    height: 48px;
+    line-height: 36px;
+    border: 4px white  solid;
+    border-radius: 20px;
+    width: 61px;
+    text-align: left;
+    margin: 4px 0px 3px 0px;
+}
+
+.menuicon li:hover {
+    background: wheat; 
+    width: 100px;
+    transition: 0.2s;
+}
+
+
+.raxa {
+    width: 144px!important;
+}
+
 
 ul.navbar-nav.mr-auto.float-sm-right {
     width: 100%;
@@ -202,13 +222,13 @@ ul.navbar-nav.mr-auto.float-sm-right {
     margin-left: -20px;
 }
 .container a img{
-	width: 90px;
-	height: 60px;
-	margin-right: 20px;
+    width: 90px;
+    height: 60px;
+    margin-right: 20px;
 }
 
 @media (max-width: 576px){
-	*{}
+    *{}
 
 .menutop {
 }
